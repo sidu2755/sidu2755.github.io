@@ -1,4 +1,4 @@
-fetch('https://api.vore.top/api/IPdata')
+﻿fetch('https://api.vore.top/api/IPdata')
     .then(response => response.json())
     .then(data => {
         const ip = data.ipinfo.text;
